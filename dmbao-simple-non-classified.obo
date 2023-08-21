@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: https://purl.brain-bican.org/ontology/dmbao/releases/2023-08-21/dmbao-simple-non-classified.owl
+ontology: https://purl.brain-bican.org/ontology/dmbao/dmbao-simple-non-classified.owl
+property_value: http://purl.org/dc/terms/description "None" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: http://purl.org/dc/terms/title "Developing Mouse Brain Atlas Ontology" xsd:string
+property_value: owl:versionInfo "2023-08-21" xsd:string
+
+[Term]
+id: DMBAO:0000000
+name: root node
+
