@@ -7,7 +7,7 @@
   <uri name="https://purl.brain-bican.org/ontology/dmbao/imports/uberon_import.obo" uri="imports/uberon_import.obo"/>
   
 
-
+  <uri name="https://purl.brain-bican.org/ontology/dmbao/imports/merged_import.owl" uri="imports/merged_import.owl"/>
   
   <uri name="https://purl.brain-bican.org/ontology/dmbao/components/all_templates.owl" uri="components/all_templates.owl"/>
   
