@@ -2,9 +2,9 @@
 ![Build Status](https://github.com/hkir-dev/developing_mouse_brain_atlas_ontology/workflows/CI/badge.svg)
 # Developing Mouse Brain Atlas Ontology
 
-Description: None
+This repository contains an application ontology built by combining ontologised versions of the Allen Institute Developing Mouse Brain Atlas (DMBA) StructureGraph mapped to Uberon. 
 
-More information can be found at http://obofoundry.org/ontology/dmbao
+More information can be found at https://hkir-dev.github.io/developing_mouse_brain_atlas_ontology/
 
 ## Versions
 
