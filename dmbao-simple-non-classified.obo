@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/dmbao/releases/2023-08-21/dmbao-simple-non-classified.owl
+data-version: https://purl.brain-bican.org/ontology/dmbao/releases/2023-08-23/dmbao-simple-non-classified.owl
 ontology: https://purl.brain-bican.org/ontology/dmbao/dmbao-simple-non-classified.owl
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Developing Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2023-08-21" xsd:string
+property_value: owl:versionInfo "2023-08-23" xsd:string
 
 [Term]
 id: ABA:Brain
@@ -20204,6 +20204,10 @@ id: DMBA:ENTITY
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "DMBA entity" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
+
+[Term]
+id: NCBITaxon:10090
+property_value: prefLabel "Mus musculus" xsd:string
 
 [Term]
 id: UBERON:0000988
