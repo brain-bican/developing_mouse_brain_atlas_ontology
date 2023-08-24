@@ -15,11 +15,11 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:uberon-bridge-to-dmba="http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-dmba#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/dmbao/dmbao-base.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/dmbao/releases/2023-08-23/dmbao-base.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/dmbao/releases/2023-08-24/dmbao-base.owl"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Developing Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2023-08-23</owl:versionInfo>
+        <owl:versionInfo>2023-08-24</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -68882,14 +68882,6 @@
         <owl:annotatedTarget>Verified</owl:annotatedTarget>
         <oboInOwl:source>https://ror.org/03cpe7c52</oboInOwl:source>
     </owl:Axiom>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY -->
-
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY">
-        <skos:prefLabel>ABA entity</skos:prefLabel>
-    </owl:Class>
 </rdf:RDF>
 
 
