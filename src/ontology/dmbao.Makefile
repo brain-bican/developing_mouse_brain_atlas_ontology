@@ -38,7 +38,7 @@ dependencies:
 	pip3 install -r ../../requirements.txt
 
 
-LOCAL_CLEAN_FILES = $(ALL_GRAPH_ONTOLOGIES) $(ALL_BRIDGES) $(TMPDIR)/tmp.json $(TMPDIR)/tmp.owl $(COMPONENTSDIR)/sources_merged.owl $(COMPONENTSDIR)/linkouts.owl $(TEMPLATEDIR)/linkouts.tsv
+LOCAL_CLEAN_FILES = $(ALL_GRAPH_ONTOLOGIES) $(ALL_BRIDGES) $(TMPDIR)/tmp.json $(TMPDIR)/tmp.owl $(COMPONENTSDIR)/sources_merged.owl $(COMPONENTSDIR)/linkouts.owl $(TEMPLATEDIR)/linkouts.tsv $(NEW_BRIDGES)
 
 # clean previous build files
 .PHONY: clean_files
@@ -96,9 +96,9 @@ $(TMPDIR)/%_old_mapping.tsv: sources/uberon-bridge-to-%.owl
 	python ../scripts/mapping_source_template_generator.py -i1 $< -i2 $(word 2, $^) -o $@
 .PRECIOUS: ../templates/%_CCF_to_UBERON_source.tsv
 
-new-bridges/new-uberon-bridge-to-%.owl: ../templates/%_CCF_to_UBERON.tsv ../templates/%_CCF_to_UBERON_source.tsv mirror/uberon.owl
-	$(ROBOT) template --input mirror/uberon.owl --template $< --output $(TMPDIR)/sourceless-new-uberon-bridge.owl
-	$(ROBOT) template --input mirror/uberon.owl --template $(word 2, $^) --output $(TMPDIR)/CCF_to_UBERON_source.owl
+new-bridges/new-uberon-bridge-to-%.owl: ../templates/%_CCF_to_UBERON.tsv ../templates/%_CCF_to_UBERON_source.tsv $(MIRRORDIR)/uberon.owl
+	$(ROBOT) template --input $(MIRRORDIR)/uberon.owl --template $< --output $(TMPDIR)/sourceless-new-uberon-bridge.owl
+	$(ROBOT) template --input $(MIRRORDIR)/uberon.owl --template $(word 2, $^) --output $(TMPDIR)/CCF_to_UBERON_source.owl
 	$(ROBOT) merge --input $(TMPDIR)/sourceless-new-uberon-bridge.owl --output $(TMPDIR)/CCF_to_UBERON_source.owl --output $@
 
 # END NEW BRIDGES
