@@ -15,7 +15,7 @@ More information can be found at https://brin-bican.github.io/developing_mouse_b
 
 The latest version of the ontology can always be found at:
 
-https://purl.brain-bican.org/ontology/dmbao.owl
+https://purl.brain-bican.org/ontology/dmbao/dmbao.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
