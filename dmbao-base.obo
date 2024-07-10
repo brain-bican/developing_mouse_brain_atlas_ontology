@@ -1,14 +1,10 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/dmbao/releases/2023-08-25/dmbao-base.owl
+data-version: https://purl.brain-bican.org/ontology/dmbao/releases/2024-07-10/dmbao-base.owl
 ontology: https://purl.brain-bican.org/ontology/dmbao/dmbao-base.owl
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Developing Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2023-08-25" xsd:string
-
-[Term]
-id: ABA:ENTITY
-property_value: prefLabel "ABA entity" xsd:string
+property_value: owl:versionInfo "2024-07-10" xsd:string
 
 [Term]
 id: CL:0000000
@@ -23,8 +19,24 @@ id: CL:0000031
 property_value: prefLabel "neuroblast (sensu Vertebrata)" xsd:string
 
 [Term]
+id: CL:0000034
+property_value: prefLabel "stem cell" xsd:string
+
+[Term]
+id: CL:0000039
+property_value: prefLabel "germ line cell" xsd:string
+
+[Term]
+id: CL:0000056
+property_value: prefLabel "myoblast" xsd:string
+
+[Term]
 id: CL:0000057
 property_value: prefLabel "fibroblast" xsd:string
+
+[Term]
+id: CL:0000064
+property_value: prefLabel "ciliated cell" xsd:string
 
 [Term]
 id: CL:0000065
@@ -104,11 +116,15 @@ property_value: prefLabel "neurectodermal cell" xsd:string
 
 [Term]
 id: CL:0000136
-property_value: prefLabel "fat cell" xsd:string
+property_value: prefLabel "adipocyte" xsd:string
 
 [Term]
 id: CL:0000138
 property_value: prefLabel "chondrocyte" xsd:string
+
+[Term]
+id: CL:0000147
+property_value: prefLabel "pigment cell" xsd:string
 
 [Term]
 id: CL:0000149
@@ -261,6 +277,10 @@ property_value: prefLabel "angioblastic mesenchymal cell" xsd:string
 [Term]
 id: CL:0000573
 property_value: prefLabel "retinal cone cell" xsd:string
+
+[Term]
+id: CL:0000586
+property_value: prefLabel "germ cell" xsd:string
 
 [Term]
 id: CL:0000598
@@ -9408,9 +9428,9 @@ property_value: prefLabel "superficial stratum of PHyB-I" xsd:string
 id: DMBA:16271
 name: lateral tuberal nucleus
 synonym: "LTu" EXACT []
-is_a: UBERON:0000435
-intersection_of: UBERON:0000435 {name="lateral tuberal nucleus"}
-intersection_of: BFO:0000050 NCBITaxon:10090 {name="lateral tuberal nucleus"}
+is_a: UBERON:8440041
+intersection_of: UBERON:8440041 {name="tuberal nucleus (sensu Rodentia)"}
+intersection_of: BFO:0000050 NCBITaxon:10090 {name="tuberal nucleus (sensu Rodentia)"}
 relationship: BFO:0000050 DMBA:16270 ! superficial stratum of PHyB-I
 relationship: BFO:0000050 NCBITaxon:10090
 property_value: IAO:0000589 "lateral tuberal nucleus" xsd:string
@@ -22255,10 +22275,6 @@ id: UBERON:0000434
 property_value: prefLabel "anterior paraventricular nucleus of thalamus" xsd:string
 
 [Term]
-id: UBERON:0000435
-property_value: prefLabel "lateral tuberal nucleus" xsd:string
-
-[Term]
 id: UBERON:0000446
 property_value: prefLabel "septum of telencephalon" xsd:string
 
@@ -22429,6 +22445,14 @@ property_value: prefLabel "skeletal joint" xsd:string
 [Term]
 id: UBERON:0000988
 property_value: prefLabel "pons" xsd:string
+
+[Term]
+id: UBERON:0000990
+property_value: prefLabel "reproductive system" xsd:string
+
+[Term]
+id: UBERON:0000991
+property_value: prefLabel "gonad" xsd:string
 
 [Term]
 id: UBERON:0001003
@@ -23359,10 +23383,6 @@ id: UBERON:0002272
 property_value: prefLabel "medial zone of hypothalamus" xsd:string
 
 [Term]
-id: UBERON:0002273
-property_value: prefLabel "lateral zone of hypothalamus" xsd:string
-
-[Term]
 id: UBERON:0002275
 property_value: prefLabel "reticular formation" xsd:string
 
@@ -23381,10 +23401,6 @@ property_value: prefLabel "central canal of spinal cord" xsd:string
 [Term]
 id: UBERON:0002298
 property_value: prefLabel "brainstem" xsd:string
-
-[Term]
-id: UBERON:0002301
-property_value: prefLabel "layer of neocortex" xsd:string
 
 [Term]
 id: UBERON:0002304
@@ -23501,10 +23517,6 @@ property_value: prefLabel "hippocampal formation" xsd:string
 [Term]
 id: UBERON:0002422
 property_value: prefLabel "fourth ventricle" xsd:string
-
-[Term]
-id: UBERON:0002430
-property_value: prefLabel "lateral hypothalamic area" xsd:string
 
 [Term]
 id: UBERON:0002434
@@ -24019,10 +24031,6 @@ id: UBERON:0002992
 property_value: prefLabel "paratenial nucleus" xsd:string
 
 [Term]
-id: UBERON:0002995
-property_value: prefLabel "substantia nigra pars lateralis" xsd:string
-
-[Term]
 id: UBERON:0003001
 property_value: prefLabel "nervous system lemniscus" xsd:string
 
@@ -24247,6 +24255,10 @@ id: UBERON:0003129
 property_value: prefLabel "skull" xsd:string
 
 [Term]
+id: UBERON:0003133
+property_value: prefLabel "reproductive organ" xsd:string
+
+[Term]
 id: UBERON:0003212
 property_value: prefLabel "gustatory organ" xsd:string
 
@@ -24393,6 +24405,10 @@ property_value: prefLabel "digestive tract epithelium" xsd:string
 [Term]
 id: UBERON:0003931
 property_value: prefLabel "diencephalic white matter" xsd:string
+
+[Term]
+id: UBERON:0003937
+property_value: prefLabel "reproductive gland" xsd:string
 
 [Term]
 id: UBERON:0003941
@@ -24811,6 +24827,10 @@ id: UBERON:0005090
 property_value: prefLabel "muscle structure" xsd:string
 
 [Term]
+id: UBERON:0005156
+property_value: prefLabel "reproductive structure" xsd:string
+
+[Term]
 id: UBERON:0005157
 property_value: prefLabel "epithelial fold" xsd:string
 
@@ -24967,30 +24987,6 @@ id: UBERON:0005389
 property_value: prefLabel "transparent eye structure" xsd:string
 
 [Term]
-id: UBERON:0005390
-property_value: prefLabel "cortical layer I" xsd:string
-
-[Term]
-id: UBERON:0005391
-property_value: prefLabel "cortical layer II" xsd:string
-
-[Term]
-id: UBERON:0005392
-property_value: prefLabel "cortical layer III" xsd:string
-
-[Term]
-id: UBERON:0005393
-property_value: prefLabel "cortical layer IV" xsd:string
-
-[Term]
-id: UBERON:0005394
-property_value: prefLabel "cortical layer V" xsd:string
-
-[Term]
-id: UBERON:0005395
-property_value: prefLabel "cortical layer VI" xsd:string
-
-[Term]
 id: UBERON:0005401
 property_value: prefLabel "cerebral hemisphere gray matter" xsd:string
 
@@ -25073,6 +25069,10 @@ property_value: prefLabel "rhombomere 7" xsd:string
 [Term]
 id: UBERON:0005527
 property_value: prefLabel "rhombomere 8" xsd:string
+
+[Term]
+id: UBERON:0005564
+property_value: prefLabel "gonad primordium" xsd:string
 
 [Term]
 id: UBERON:0005566
@@ -26071,10 +26071,6 @@ id: UBERON:0010371
 property_value: prefLabel "ecto-epithelium" xsd:string
 
 [Term]
-id: UBERON:0010403
-property_value: prefLabel "brain marginal zone" xsd:string
-
-[Term]
 id: UBERON:0010409
 property_value: prefLabel "ocular surface region" xsd:string
 
@@ -26512,7 +26508,7 @@ property_value: prefLabel "brainstem white matter" xsd:string
 
 [Term]
 id: UBERON:0014892
-property_value: prefLabel "skeletal muscle organ" xsd:string
+property_value: prefLabel "skeletal muscle organ, vertebrate" xsd:string
 
 [Term]
 id: UBERON:0014903
@@ -26521,10 +26517,6 @@ property_value: prefLabel "primordial vasculature" xsd:string
 [Term]
 id: UBERON:0014913
 property_value: prefLabel "ventral pallium" xsd:string
-
-[Term]
-id: UBERON:0014935
-property_value: prefLabel "cerebral cortex marginal layer" xsd:string
 
 [Term]
 id: UBERON:0014950
@@ -27035,10 +27027,6 @@ id: UBERON:8410081
 property_value: prefLabel "blood microvessel" xsd:string
 
 [Term]
-id: UBERON:8440004
-property_value: prefLabel "laminar subdivision of the cortex" xsd:string
-
-[Term]
 id: UBERON:8440014
 property_value: prefLabel "ventrolateral preoptic nucleus" xsd:string
 
@@ -27055,6 +27043,14 @@ id: UBERON:8440021
 property_value: prefLabel "noradrenergic cell group A7" xsd:string
 
 [Term]
+id: UBERON:8440041
+property_value: prefLabel "tuberal nucleus (sensu Rodentia)" xsd:string
+
+[Term]
 id: UBERON:8600004
 property_value: prefLabel "visceral muscle tissue" xsd:string
+
+[Term]
+id: UBERON:8600018
+property_value: prefLabel "neuroendocrine system" xsd:string
 

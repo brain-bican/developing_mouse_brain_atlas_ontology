@@ -4,10 +4,10 @@ from relation_validator import read_csv_to_dict
 
 
 CCF_TO_UBERON_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                                     "../bridge/CCF_to_UBERON working list.csv")
-CCF_TO_UBERON_TEMPLATE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../robot_templates/CCF_to_UBERON.tsv")
+                                     "../bridge/CCF_to_UBERON working list.tsv")
+CCF_TO_UBERON_TEMPLATE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../templates/dmba_CCF_to_UBERON.tsv")
 
-ALLOWED_NS = ["https://purl.brain-bican.org/ontology/mbao/MBA_", "https://purl.brain-bican.org/ontology/dmbao/DMBA_"]
+ALLOWED_NS = ["https://purl.brain-bican.org/ontology/dmbao/DMBA_"]
 
 
 def generate_robot_template(mapping_path: str, output_filepath: str):
