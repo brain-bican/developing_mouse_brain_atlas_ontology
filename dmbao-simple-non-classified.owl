@@ -11,10 +11,10 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/dmbao/dmbao-simple-non-classified.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/dmbao/releases/2023-08-25/dmbao-simple-non-classified.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/dmbao/releases/2024-07-10/dmbao-simple-non-classified.owl"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Developing Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2023-08-25</owl:versionInfo>
+        <owl:versionInfo>2024-07-10</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -50526,8 +50526,20 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000031">
         <skos:prefLabel>neuroblast (sensu Vertebrata)</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000034">
+        <skos:prefLabel>stem cell</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000039">
+        <skos:prefLabel>germ line cell</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000056">
+        <skos:prefLabel>myoblast</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000057">
         <skos:prefLabel>fibroblast</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000064">
+        <skos:prefLabel>ciliated cell</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000065">
         <skos:prefLabel>ependymal cell</skos:prefLabel>
@@ -50587,10 +50599,13 @@
         <skos:prefLabel>neurectodermal cell</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000136">
-        <skos:prefLabel>fat cell</skos:prefLabel>
+        <skos:prefLabel>adipocyte</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000138">
         <skos:prefLabel>chondrocyte</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000147">
+        <skos:prefLabel>pigment cell</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000149">
         <skos:prefLabel>visual pigment cell</skos:prefLabel>
@@ -50705,6 +50720,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000573">
         <skos:prefLabel>retinal cone cell</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000586">
+        <skos:prefLabel>germ cell</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000598">
         <skos:prefLabel>pyramidal neuron</skos:prefLabel>
@@ -51078,9 +51096,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000434">
         <skos:prefLabel>anterior paraventricular nucleus of thalamus</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000435">
-        <skos:prefLabel>lateral tuberal nucleus</skos:prefLabel>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000446">
         <skos:prefLabel>septum of telencephalon</skos:prefLabel>
     </rdf:Description>
@@ -51206,6 +51221,12 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000982">
         <skos:prefLabel>skeletal joint</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000990">
+        <skos:prefLabel>reproductive system</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000991">
+        <skos:prefLabel>gonad</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001003">
         <skos:prefLabel>skin epidermis</skos:prefLabel>
@@ -51807,9 +51828,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002272">
         <skos:prefLabel>medial zone of hypothalamus</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002273">
-        <skos:prefLabel>lateral zone of hypothalamus</skos:prefLabel>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002275">
         <skos:prefLabel>reticular formation</skos:prefLabel>
     </rdf:Description>
@@ -51824,9 +51842,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002298">
         <skos:prefLabel>brainstem</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002301">
-        <skos:prefLabel>layer of neocortex</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002304">
         <skos:prefLabel>layer of dentate gyrus</skos:prefLabel>
@@ -51908,9 +51923,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002422">
         <skos:prefLabel>fourth ventricle</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002430">
-        <skos:prefLabel>lateral hypothalamic area</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002434">
         <skos:prefLabel>pituitary stalk</skos:prefLabel>
@@ -52233,9 +52245,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002992">
         <skos:prefLabel>paratenial nucleus</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002995">
-        <skos:prefLabel>substantia nigra pars lateralis</skos:prefLabel>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003001">
         <skos:prefLabel>nervous system lemniscus</skos:prefLabel>
     </rdf:Description>
@@ -52389,6 +52398,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003129">
         <skos:prefLabel>skull</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003133">
+        <skos:prefLabel>reproductive organ</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003212">
         <skos:prefLabel>gustatory organ</skos:prefLabel>
     </rdf:Description>
@@ -52499,6 +52511,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003931">
         <skos:prefLabel>diencephalic white matter</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003937">
+        <skos:prefLabel>reproductive gland</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003941">
         <skos:prefLabel>cerebellum anterior vermis</skos:prefLabel>
@@ -52806,6 +52821,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005090">
         <skos:prefLabel>muscle structure</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005156">
+        <skos:prefLabel>reproductive structure</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005157">
         <skos:prefLabel>epithelial fold</skos:prefLabel>
     </rdf:Description>
@@ -52920,24 +52938,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005389">
         <skos:prefLabel>transparent eye structure</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005390">
-        <skos:prefLabel>cortical layer I</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005391">
-        <skos:prefLabel>cortical layer II</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005392">
-        <skos:prefLabel>cortical layer III</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005393">
-        <skos:prefLabel>cortical layer IV</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005394">
-        <skos:prefLabel>cortical layer V</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005395">
-        <skos:prefLabel>cortical layer VI</skos:prefLabel>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005401">
         <skos:prefLabel>cerebral hemisphere gray matter</skos:prefLabel>
     </rdf:Description>
@@ -53000,6 +53000,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005527">
         <skos:prefLabel>rhombomere 8</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005564">
+        <skos:prefLabel>gonad primordium</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005566">
         <skos:prefLabel>rhombomere 1 floor plate</skos:prefLabel>
@@ -53727,9 +53730,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010371">
         <skos:prefLabel>ecto-epithelium</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010403">
-        <skos:prefLabel>brain marginal zone</skos:prefLabel>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010409">
         <skos:prefLabel>ocular surface region</skos:prefLabel>
     </rdf:Description>
@@ -54049,16 +54049,13 @@
         <skos:prefLabel>brainstem white matter</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014892">
-        <skos:prefLabel>skeletal muscle organ</skos:prefLabel>
+        <skos:prefLabel>skeletal muscle organ, vertebrate</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014903">
         <skos:prefLabel>primordial vasculature</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014913">
         <skos:prefLabel>ventral pallium</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014935">
-        <skos:prefLabel>cerebral cortex marginal layer</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014950">
         <skos:prefLabel>layer of developing cerebral cortex</skos:prefLabel>
@@ -54414,9 +54411,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8410081">
         <skos:prefLabel>blood microvessel</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8440004">
-        <skos:prefLabel>laminar subdivision of the cortex</skos:prefLabel>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8440014">
         <skos:prefLabel>ventrolateral preoptic nucleus</skos:prefLabel>
     </rdf:Description>
@@ -54429,15 +54423,18 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8440021">
         <skos:prefLabel>noradrenergic cell group A7</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8440041">
+        <skos:prefLabel>tuberal nucleus (sensu Rodentia)</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8600004">
         <skos:prefLabel>visceral muscle tissue</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_ENTITY">
-        <skos:prefLabel>ABA entity</skos:prefLabel>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8600018">
+        <skos:prefLabel>neuroendocrine system</skos:prefLabel>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
 

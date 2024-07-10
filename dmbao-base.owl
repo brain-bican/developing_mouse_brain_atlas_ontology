@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://purl.brain-bican.org/ontology/dmbao/dmbao-base.owl#"
      xml:base="https://purl.brain-bican.org/ontology/dmbao/dmbao-base.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dce="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,14 +9,14 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/dmbao/dmbao-base.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/dmbao/releases/2023-08-25/dmbao-base.owl"/>
-        <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <terms:title>Developing Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2023-08-25</owl:versionInfo>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/dmbao/releases/2024-07-10/dmbao-base.owl"/>
+        <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcterms:title>Developing Mouse Brain Atlas Ontology</dcterms:title>
+        <owl:versionInfo>2024-07-10</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -144,10 +144,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000034">
+        <skos:prefLabel>stem cell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000039">
+        <skos:prefLabel>germ line cell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000056">
+        <skos:prefLabel>myoblast</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000057">
         <skos:prefLabel>fibroblast</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000064">
+        <skos:prefLabel>ciliated cell</skos:prefLabel>
     </owl:Class>
     
 
@@ -307,7 +339,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000136 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000136">
-        <skos:prefLabel>fat cell</skos:prefLabel>
+        <skos:prefLabel>adipocyte</skos:prefLabel>
     </owl:Class>
     
 
@@ -316,6 +348,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000138">
         <skos:prefLabel>chondrocyte</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000147">
+        <skos:prefLabel>pigment cell</skos:prefLabel>
     </owl:Class>
     
 
@@ -620,6 +660,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000573">
         <skos:prefLabel>retinal cone cell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000586">
+        <skos:prefLabel>germ cell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1624,14 +1672,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000435 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000435">
-        <skos:prefLabel>lateral tuberal nucleus</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000446 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000446">
@@ -1972,6 +2012,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000988">
         <skos:prefLabel>pons</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000990">
+        <skos:prefLabel>reproductive system</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000991">
+        <skos:prefLabel>gonad</skos:prefLabel>
     </owl:Class>
     
 
@@ -3832,14 +3888,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002273 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002273">
-        <skos:prefLabel>lateral zone of hypothalamus</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0002275 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002275">
@@ -3876,14 +3924,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002298">
         <skos:prefLabel>brainstem</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002301 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002301">
-        <skos:prefLabel>layer of neocortex</skos:prefLabel>
     </owl:Class>
     
 
@@ -4116,14 +4156,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002422">
         <skos:prefLabel>fourth ventricle</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002430 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002430">
-        <skos:prefLabel>lateral hypothalamic area</skos:prefLabel>
     </owl:Class>
     
 
@@ -5152,14 +5184,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002995 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002995">
-        <skos:prefLabel>substantia nigra pars lateralis</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0003001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003001">
@@ -5608,6 +5632,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003133">
+        <skos:prefLabel>reproductive organ</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0003212 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003212">
@@ -5900,6 +5932,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003931">
         <skos:prefLabel>diencephalic white matter</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003937 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003937">
+        <skos:prefLabel>reproductive gland</skos:prefLabel>
     </owl:Class>
     
 
@@ -6736,6 +6776,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005156">
+        <skos:prefLabel>reproductive structure</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0005157 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005157">
@@ -7048,54 +7096,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005390 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005390">
-        <skos:prefLabel>cortical layer I</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005391 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005391">
-        <skos:prefLabel>cortical layer II</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005392 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005392">
-        <skos:prefLabel>cortical layer III</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005393 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005393">
-        <skos:prefLabel>cortical layer IV</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005394 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005394">
-        <skos:prefLabel>cortical layer V</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005395 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005395">
-        <skos:prefLabel>cortical layer VI</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0005401 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005401">
@@ -7260,6 +7260,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005527">
         <skos:prefLabel>rhombomere 8</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005564">
+        <skos:prefLabel>gonad primordium</skos:prefLabel>
     </owl:Class>
     
 
@@ -9256,14 +9264,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0010403 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010403">
-        <skos:prefLabel>brain marginal zone</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0010409 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010409">
@@ -10139,7 +10139,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0014892 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014892">
-        <skos:prefLabel>skeletal muscle organ</skos:prefLabel>
+        <skos:prefLabel>skeletal muscle organ, vertebrate</skos:prefLabel>
     </owl:Class>
     
 
@@ -10156,14 +10156,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014913">
         <skos:prefLabel>ventral pallium</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0014935 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014935">
-        <skos:prefLabel>cerebral cortex marginal layer</skos:prefLabel>
     </owl:Class>
     
 
@@ -11184,14 +11176,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_8440004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_8440004">
-        <skos:prefLabel>laminar subdivision of the cortex</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_8440014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_8440014">
@@ -11224,6 +11208,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_8440041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_8440041">
+        <skos:prefLabel>tuberal nucleus (sensu Rodentia)</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_8600004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_8600004">
@@ -11232,17 +11224,17 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/DMBAO_0000000 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_8600018 -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/DMBAO_0000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_8600018">
+        <skos:prefLabel>neuroendocrine system</skos:prefLabel>
+    </owl:Class>
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/abao/ABA_ENTITY -->
+    <!-- https://purl.brain-bican.org/ontology/DMBAO_0000000 -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_ENTITY">
-        <skos:prefLabel>ABA entity</skos:prefLabel>
-    </owl:Class>
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/DMBAO_0000000"/>
     
 
 
@@ -34762,7 +34754,7 @@
 
     <owl:Class rdf:about="https://purl.brain-bican.org/ontology/dmbao/DMBA_16271">
         <owl:equivalentClass rdf:nodeID="genid2383"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000435"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_8440041"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -34783,7 +34775,7 @@
     </owl:Class>
     <owl:Class rdf:nodeID="genid2383">
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000435"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8440041"/>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -34794,7 +34786,7 @@
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/dmbao/DMBA_16271"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
         <owl:annotatedTarget rdf:nodeID="genid2383"/>
-        <rdfs:label>lateral tuberal nucleus</rdfs:label>
+        <rdfs:label>tuberal nucleus (sensu Rodentia)</rdfs:label>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/dmbao/DMBA_16271"/>
@@ -68316,5 +68308,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
 

@@ -13,9 +13,9 @@
         "val" : "Developing Mouse Brain Atlas Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-08-25"
+        "val" : "2024-07-10"
       } ],
-      "version" : "https://purl.brain-bican.org/ontology/dmbao/releases/2023-08-25/dmbao-base.json"
+      "version" : "https://purl.brain-bican.org/ontology/dmbao/releases/2024-07-10/dmbao-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/CL_0000000",
@@ -45,12 +45,48 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000034",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "stem cell"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000039",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "germ line cell"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000056",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "myoblast"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0000057",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "fibroblast"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000064",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "ciliated cell"
         } ]
       }
     }, {
@@ -230,7 +266,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "fat cell"
+          "val" : "adipocyte"
         } ]
       }
     }, {
@@ -240,6 +276,15 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "chondrocyte"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000147",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "pigment cell"
         } ]
       }
     }, {
@@ -582,6 +627,15 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "retinal cone cell"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000586",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "germ cell"
         } ]
       }
     }, {
@@ -1710,15 +1764,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000435",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "lateral tuberal nucleus"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0000446",
       "type" : "CLASS",
       "meta" : {
@@ -2103,6 +2148,24 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "pons"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000990",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "reproductive system"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000991",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "gonad"
         } ]
       }
     }, {
@@ -4194,15 +4257,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0002273",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "lateral zone of hypothalamus"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0002275",
       "type" : "CLASS",
       "meta" : {
@@ -4245,15 +4299,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "brainstem"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0002301",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "layer of neocortex"
         } ]
       }
     }, {
@@ -4515,15 +4560,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "fourth ventricle"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0002430",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "lateral hypothalamic area"
         } ]
       }
     }, {
@@ -5679,15 +5715,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0002995",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "substantia nigra pars lateralis"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0003001",
       "type" : "CLASS",
       "meta" : {
@@ -6192,6 +6219,15 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0003133",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "reproductive organ"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0003212",
       "type" : "CLASS",
       "meta" : {
@@ -6522,6 +6558,15 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "diencephalic white matter"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0003937",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "reproductive gland"
         } ]
       }
     }, {
@@ -7461,6 +7506,15 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0005156",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "reproductive structure"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0005157",
       "type" : "CLASS",
       "meta" : {
@@ -7812,60 +7866,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0005390",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "cortical layer I"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0005391",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "cortical layer II"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0005392",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "cortical layer III"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0005393",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "cortical layer IV"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0005394",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "cortical layer V"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0005395",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "cortical layer VI"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0005401",
       "type" : "CLASS",
       "meta" : {
@@ -8052,6 +8052,15 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "rhombomere 8"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0005564",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "gonad primordium"
         } ]
       }
     }, {
@@ -10296,15 +10305,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0010403",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "brain marginal zone"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0010409",
       "type" : "CLASS",
       "meta" : {
@@ -11291,7 +11291,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "skeletal muscle organ"
+          "val" : "skeletal muscle organ, vertebrate"
         } ]
       }
     }, {
@@ -11310,15 +11310,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "ventral pallium"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0014935",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "cerebral cortex marginal layer"
         } ]
       }
     }, {
@@ -12465,15 +12456,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_8440004",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "laminar subdivision of the cortex"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_8440014",
       "type" : "CLASS",
       "meta" : {
@@ -12510,12 +12492,30 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_8440041",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "tuberal nucleus (sensu Rodentia)"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_8600004",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "visceral muscle tissue"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_8600018",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "neuroendocrine system"
         } ]
       }
     }, {
@@ -12530,15 +12530,6 @@
       "id" : "http://purl.org/dc/terms/title",
       "lbl" : "title",
       "type" : "PROPERTY"
-    }, {
-      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_ENTITY",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "ABA entity"
-        } ]
-      }
     }, {
       "id" : "https://purl.brain-bican.org/ontology/dmbao/DMBA_111220530",
       "lbl" : "ventricular zone of PO",
@@ -58803,7 +58794,7 @@
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dmbao/DMBA_16271",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000435"
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_8440041"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dmbao/DMBA_16271",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -67043,7 +67034,7 @@
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dmbao/DMBA_16271",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0000435" ],
+      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_8440041" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
