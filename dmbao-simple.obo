@@ -1,13 +1,17 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/dmbao/releases/2024-07-10/dmbao-simple.owl
+data-version: https://purl.brain-bican.org/ontology/dmbao/releases/2025-02-10/dmbao-simple.owl
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: skos http://www.w3.org/2004/02/skos/core# 
+idspace: terms http://purl.org/dc/terms/ 
 ontology: https://purl.brain-bican.org/ontology/dmbao/dmbao-simple.owl
 property_value: dcterms-license https://creativecommons.org/licenses/by/4.0/
-property_value: http://purl.org/dc/terms/title "Developing Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2024-07-10" xsd:string
+property_value: owl:versionInfo "2025-02-10" xsd:string
+property_value: terms:description "An application ontology built by combining ontologised versions of the Allen Institute Developing Mouse Brain Atlas (DMBA) StructureGraph mapped to Uberon." xsd:string
+property_value: terms:title "Developing Mouse Brain Atlas Ontology" xsd:string
 
 [Typedef]
 id: dcterms-license
@@ -19,8 +23,6 @@ is_metadata_tag: true
 [Typedef]
 id: part_of
 name: part of
-name: part_of
-namespace: quality
 namespace: spatial
 namespace: uberon
 def: "a core relation that holds between a part and its whole" []

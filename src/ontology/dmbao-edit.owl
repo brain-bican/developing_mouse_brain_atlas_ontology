@@ -7,6 +7,7 @@ Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(IAO:=<http://purl.obolibrary.org/obo/IAO_>)
 
 
 Ontology(<https://purl.brain-bican.org/ontology/dmbao.owl>
@@ -19,9 +20,8 @@ Import(<https://purl.brain-bican.org/ontology/dmbao/components/all_templates.owl
 Import(<https://purl.brain-bican.org/ontology/dmbao/patterns/definitions.owl>)
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Developing Mouse Brain Atlas Ontology")
+Annotation(dcterms:description "An application ontology built by combining ontologised versions of the Allen Institute Developing Mouse Brain Atlas (DMBA) StructureGraph mapped to Uberon.")
 
-
-Declaration(Class(<https://purl.brain-bican.org/ontology/DMBAO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
