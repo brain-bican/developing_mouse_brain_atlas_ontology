@@ -1,5 +1,5 @@
 ID	Label	Subclass part of	Equivalent	SuperClass Label	Status	Approved by		
-ID	A IAO:0000589	SC part_of some % and (part_of some NCBITaxon:10090)	EC % and (part_of some NCBITaxon:10090)	>A rdfs:label	A oboInOwl:status	>A oboInOwl:source		
+ID	A IAO:0000589	SC 'part of' some % and ('part of' some NCBITaxon:10090)	EC % and ('part of' some NCBITaxon:10090)	>A rdfs:label	A oboInOwl:status	>A oboInOwl:source
 https://purl.brain-bican.org/ontology/dmbao/DMBA_112892315	lateral wings of the dorsal raphe nucleus	http://purl.obolibrary.org/obo/UBERON_0002043		dorsal raphe nucleus 	Verified	https://ror.org/03cpe7c52		
 https://purl.brain-bican.org/ontology/dmbao/DMBA_126651562	"ventricles, forebrain"		http://purl.obolibrary.org/obo/UBERON_0002285	telencephalic ventricle	Verified	https://ror.org/03cpe7c52		
 https://purl.brain-bican.org/ontology/dmbao/DMBA_126651566	"ventricles, secondary prosencephalon"	http://purl.obolibrary.org/obo/UBERON_0036218		secondary prosencephalon 	Verified	https://ror.org/03cpe7c52		
